@@ -1,7 +1,5 @@
 <template>
-    <button>
-        <slot></slot>
-    </button>
+  <h1>This is Zardari Components</h1>
 </template>
 
 <script>

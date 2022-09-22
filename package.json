@@ -1,11 +1,18 @@
 {
-  "name": "mr_zardari_vue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "mr_zardari_vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "Sagheer Hussain Zardari",
-  "license": "ISC"
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0"
+  }
 }
